@@ -1,0 +1,108 @@
+* {
+  font-family: Roboto;
+}
+
+body {
+  background-color: rgb(13, 26, 45);
+}
+
+#square {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(21, 39, 61);
+  width: 350px;
+  height: fit-content;
+  border-radius: 20px;
+  line-height: 25px;
+}
+
+#image {
+  position: relative;
+  width: 310px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+#overlay {
+  position: absolute;
+  width: 310px;
+  height: 310px;
+  border-radius: 10px;
+  background-color: rgb(39, 247, 233);
+  z-index: 0;
+}
+
+#image:hover {
+  opacity: 0.5;
+}
+
+#view {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#margin {
+  margin: 20px;
+}
+
+#name {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#name:hover {
+  color: rgb(39, 247, 233);
+}
+
+#paragraph {
+  color: rgb(148, 171, 203);
+  font-weight: 300;
+}
+
+#price {
+  display: inline;
+  color: rgb(39, 247, 233);
+}
+
+#time {
+  display: inline;
+  color: rgb(136, 173, 217);
+}
+
+#timeCont {
+  display: inline;
+  float: right;
+}
+
+#bar {
+  border: 1px solid rgb(47, 65, 89);
+  outline: 0;
+}
+
+#pfp {
+  display: inline;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+}
+
+#text {
+  color: rgb(148, 171, 203);
+  display: inline;
+}
+
+#nameDown {
+  color: white;
+  display: inline;
+}
+
+#nameDown:hover {
+  color: rgb(39, 247, 233);
+}
+
+/*# sourceMappingURL=output.css.map */
